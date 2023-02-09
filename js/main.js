@@ -5,10 +5,10 @@
 
 
 // setting Vue Js
-const setVue = Vue.create.app({
+const setVue = Vue.createApp({
     data() {
         return {
-
+            message: "Intro VueJs, framework di Javascript"
         }
 
     }
