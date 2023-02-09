@@ -5,4 +5,12 @@
 
 
 // setting Vue Js
+const setVue = Vue.create.app({
+    data() {
+        return {
 
+        }
+
+    }
+})
+setVue.mount("#root")
